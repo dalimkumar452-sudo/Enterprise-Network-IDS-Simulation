@@ -1,0 +1,23 @@
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases (Ignore local database to prevent conflicts)
+*.db
+*.sqlite3
+ids_simulation.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
